@@ -41,10 +41,15 @@ STEP 6 - Group and Summerize
 ----> Calculate Average income and average spending score 
 
 
-<img width="875" height="692" alt="image" src="https://github.com/user-attachments/assets/fc90b6b3-ba7b-4cdb-9999-cd6f01c92a7f" />
+<img width="867" height="697" alt="image" src="https://github.com/user-attachments/assets/30dec961-d6e9-47c8-abce-40d5eed3c7cb" />
+
+
+
 
 
 STEP 7 - Export the clean data ---> cleaned_customer_data.csv
+
+
 
 
 PHASE 2 - SQL Analytical Exploration 
@@ -52,10 +57,20 @@ PHASE 2 - SQL Analytical Exploration
 Section A - Data Quality and Understanding 
 
 1 - How many total customer records are in the table?
+
+
 2 - Are there any duplicate customer ID's? If yes, how will you handle them?
+
+
 3 - How many unique genders and present, and is the distribution balanced?
+
+
 4 - What is the youngest and oldest customer in the dataset?
+
+
 5 - What is the average income and spending score across all cusomers? 
+
+
 
 
 
