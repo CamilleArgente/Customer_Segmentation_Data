@@ -1,34 +1,73 @@
 # Customer_Segmentation_Data
 Customer Segmentation 
 
-Phase 1 - Data Cleaning and Transformation Guide 
+PHASE 1 - Data Cleaning and Transformation Guide 
 
-Step 1 - Load the data set ----> Go to home, Get data, Excel (Customer_Segmentation_Data)
+
+
+STEP 1 - Load the data set ----> Go to home, Get data, Excel (Customer_Segmentation_Data)
 Click on transform to open Power Query Editor 
 
-Step 2 - Confirm Data Types ----> Ensure each column has the correct data type, e.g (age -  whole number, gender - text)
+STEP 2 - Confirm Data Types ----> Ensure each column has the correct data type, e.g (age -  whole number, gender - text)
 
-Step 3 - Create the Derived Fields ----> Create new columns, age_group and income_brcket
+STEP 3 - Create the Derived Fields ----> Create new columns, age_group and income_brcket
 
 A) age_group column - used the 'If', 'Else' satement 
-
-
-if [age] >= 18 and [age] <= 25 then "18–25"
-  else if [age] >= 26 and [age] <= 35 then "26–35"
-  else if [age] >= 36 and [age] <= 50 then "36–50"
-  else if [age] <> null and [age] < 18 then "Under 18"
-  else "51+"
 
 <img width="875" height="550" alt="image" src="https://github.com/user-attachments/assets/70651cda-31a9-4f7f-aa4a-32eb0d7c60e4" />
 
   
-
 B) income_bracket - used the 'If', 'Else' statement 
 
+<img width="870" height="550" alt="image" src="https://github.com/user-attachments/assets/2eb291cd-b161-4b3a-b1dd-13e02e93905c" />
 
-if [income] < 40000 then"Low"
-else if [income] >= 40000 and [income] <=80000 then "Mid"
-else "high"
+
+STEP 4 - Add a Calculated Column ----> right click on the data fields section, click new cloumn and add formula - spend_to_income_ratio = DIVIDE([spending_score], [income], 0)
+
+
+STEP 5 - Standardize text fields (capitalise gender values) 
+
+Back to transform data ---> power query editor 
+
+select gender column ---> right click ---> transform ---> UPPERCASE 
+
+
+
+STEP 6 - Group and Summerize 
+
+----> group and summerize data by gender, income_bracket and age_group
+
+
+----> Calculate Average income and average spending score 
+
+
+<img width="875" height="692" alt="image" src="https://github.com/user-attachments/assets/fc90b6b3-ba7b-4cdb-9999-cd6f01c92a7f" />
+
+
+STEP 7 - Export the clean data ---> cleaned_customer_data.csv
+
+
+PHASE 2 - SQL Analytical Exploration 
+
+Section A - Data Quality and Understanding 
+
+1 - How many total customer records are in the table?
+2 - Are there any duplicate customer ID's? If yes, how will you handle them?
+3 - How many unique genders and present, and is the distribution balanced?
+4 - What is the youngest and oldest customer in the dataset?
+5 - What is the average income and spending score across all cusomers? 
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
