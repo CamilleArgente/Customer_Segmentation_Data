@@ -57,6 +57,7 @@ PHASE 2 - SQL Analytical Exploration
 Section A - Data Quality and Understanding 
 
 1 - How many total customer records are in the table?
+<img width="650" height="523" alt="image" src="https://github.com/user-attachments/assets/473ba8ca-384e-4713-8d98-f95434e22e49" />
 
 
 2 - Are there any duplicate customer ID's? If yes, how will you handle them?
