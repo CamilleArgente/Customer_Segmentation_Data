@@ -96,6 +96,11 @@ SECTION B - DEMOGRAPHIC PATTERNS
 4 - Does higher income always lead to a hiher spending score? What patterns do you oberve? 
 
 
+SECTION C - BEHAVIOURAL INSIGHTS 
+
+1- Identify the top_spending customers (top 10 by spending_score). What's their average income and age?
+
+
 
 
 
