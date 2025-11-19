@@ -99,6 +99,26 @@ SECTION B - DEMOGRAPHIC PATTERNS
 SECTION C - BEHAVIOURAL INSIGHTS 
 
 1- Identify the top_spending customers (top 10 by spending_score). What's their average income and age?
+<img width="641" height="630" alt="image" src="https://github.com/user-attachments/assets/0ce35c35-3c95-410a-b220-44862b4b3571" />
+
+<img width="951" height="292" alt="image" src="https://github.com/user-attachments/assets/6ede37d4-5555-4b10-8aa7-3eebd1e746be" />
+
+2 - Who are the low_spending customers (bottom 10 by spending_score) Explain their behaviour? 
+
+<img width="628" height="561" alt="image" src="https://github.com/user-attachments/assets/82c81130-5d0e-411c-a84c-9e6754cb6008" />
+
+3 - Calculate the spend_to_income_ratio for each customer?
+    What range of ratios do you find (min,max,average?)
+    Which customer achieved the best "value" reletaive to income?
+    
+
+4 - Which gender or age group has the highest average spend_to_income ratio?
+    
+
+    
+    
+
+
 
 
 
