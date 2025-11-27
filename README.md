@@ -50,22 +50,30 @@ Section A - Data Quality and Understanding
 
 2 - Are there any duplicate customer ID's? If yes, how will you handle them?
 
-There are no records of customer ID's in this dataset. 
+<img width="628" height="430" alt="image" src="https://github.com/user-attachments/assets/90636ec1-50f8-493d-a85a-c0990df5747d" />
+
+
 
 3 - How many unique genders and present, and is the distribution balanced?
 
-----> the distribution is not balalnce as there are more males than females. 
+----> the distribution is not balalnced, there are more males than females. 
 
-<img width="572" height="426" alt="image" src="https://github.com/user-attachments/assets/1136ffb1-9793-4dae-a6f8-9497fbac2812" />
+
+<img width="625" height="428" alt="image" src="https://github.com/user-attachments/assets/19b0deda-37e8-4ddb-9ed6-797e5c9bdad8" />
+
 
 
 4 - What is the youngest and oldest customer in the dataset?
-<img width="757" height="320" alt="image" src="https://github.com/user-attachments/assets/c845971c-1a04-40a5-a5ef-a8645ab0856d" />
+
+<img width="612" height="312" alt="image" src="https://github.com/user-attachments/assets/05c4a154-6bd1-416a-b0f3-c92a499b6c93" />
+
 
 
 5 - What is the average income and spending score across all cusomers? 
 
-<img width="627" height="381" alt="image" src="https://github.com/user-attachments/assets/8ff1a952-fe0b-4c36-a9de-61f569371b43" />
+
+<img width="552" height="393" alt="image" src="https://github.com/user-attachments/assets/d7b468ae-58c7-4198-a959-2b463ed042bb" />
+
 
 
 SECTION B - DEMOGRAPHIC PATTERNS 
