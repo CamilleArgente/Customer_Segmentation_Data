@@ -80,39 +80,72 @@ SECTION B - DEMOGRAPHIC PATTERNS
 
 1 - What is the average age, income, and spending score for each gender?
 
-<img width="721" height="402" alt="image" src="https://github.com/user-attachments/assets/032b959f-af51-4220-bab0-8f4278037e7e" />
+
+<img width="695" height="461" alt="image" src="https://github.com/user-attachments/assets/d8bb74b8-8e34-45fa-b627-61c25f264aa7" />
+
 
 2 - Which age group has the highest spending score? 
 
-<img width="780" height="408" alt="image" src="https://github.com/user-attachments/assets/8eb3ed98-76cc-447f-a3f6-18c6ef1f529c" />
+
+<img width="620" height="440" alt="image" src="https://github.com/user-attachments/assets/5f371ecf-1d05-4228-af14-2d4103607a61" />
+
 
 3 - How does spending behaviour vary across income_brackets (Low, Med, High)?
 
+<img width="850" height="362" alt="image" src="https://github.com/user-attachments/assets/a646080c-9e6f-4915-ae7a-214503188472" />
+
 
 4 - Does higher income always lead to a hiher spending score? What patterns do you oberve? 
+
+<img width="1003" height="403" alt="image" src="https://github.com/user-attachments/assets/690af3a2-bea5-4426-9b14-0cd236dc90b6" />
 
 
 SECTION C - BEHAVIOURAL INSIGHTS 
 
 1- Identify the top_spending customers (top 10 by spending_score). What's their average income and age?
-<img width="641" height="630" alt="image" src="https://github.com/user-attachments/assets/0ce35c35-3c95-410a-b220-44862b4b3571" />
 
-<img width="951" height="292" alt="image" src="https://github.com/user-attachments/assets/6ede37d4-5555-4b10-8aa7-3eebd1e746be" />
+<img width="1021" height="622" alt="image" src="https://github.com/user-attachments/assets/e75b4873-8da0-4be1-8f09-d0f8e57d9f00" />
+
+
+<img width="943" height="327" alt="image" src="https://github.com/user-attachments/assets/0ec2b407-39c6-43db-8a15-cce78c7982e5" />
+
 
 2 - Who are the low_spending customers (bottom 10 by spending_score) Explain their behaviour? 
 
-<img width="628" height="561" alt="image" src="https://github.com/user-attachments/assets/82c81130-5d0e-411c-a84c-9e6754cb6008" />
+<img width="665" height="552" alt="image" src="https://github.com/user-attachments/assets/c8b12bbf-0e2b-40ff-9e09-15eafd46f6c1" />
 
 3 - Calculate the spend_to_income_ratio for each customer?
-    What range of ratios do you find (min,max,average?)
-    Which customer achieved the best "value" reletaive to income?
-    
+What range of ratios do you find (min, max, average?)
+Which customer achieved the best 'value' relative to income?
+
+
+<img width="780" height="667" alt="image" src="https://github.com/user-attachments/assets/e86e8bc3-a518-4698-afe3-685a2522dfbd" />
+
+
+
+<img width="727" height="537" alt="image" src="https://github.com/user-attachments/assets/b093d87a-cc7e-42d4-b051-14eeab008e8b" />
+
+ 
 
 4 - Which gender or age group has the highest average spend_to_income ratio?
     
+<img width="633" height="338" alt="image" src="https://github.com/user-attachments/assets/1fde465f-2e0c-40a3-8d6c-b5a820214642" />
 
     
-    
+
+SECTION D - SEGMENT REDINESS AND MODLING PREP
+
+1 - Group customers by age_group, income_bracket and gender - what trends emerge? 
+
+
+<img width="687" height="542" alt="image" src="https://github.com/user-attachments/assets/0bbdeb8d-4b6b-45e3-902b-f2b2d656dbc9" />
+
+
+2 - Which combinatons of age_group and income_bracket produce the hightest_spending_score?
+
+3 - How many customers fall into each combination? (example, young + low income, mature + high income)
+
+4 - Based on your findings, what featires (variables) will be most important for segmentation modeling in phase 3?   
 
 
 
