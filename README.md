@@ -32,21 +32,6 @@ Back to transform data ---> power query editor
 select gender column ---> right click ---> transform ---> UPPERCASE 
 
 
-
-STEP 6 - Group and Summerize 
-
-----> group and summerize data by gender, income_bracket and age_group
-
-
-----> Calculate Average income and average spending score 
-
-
-<img width="867" height="697" alt="image" src="https://github.com/user-attachments/assets/30dec961-d6e9-47c8-abce-40d5eed3c7cb" />
-
-
-
-
-
 STEP 7 - Export the clean data ---> cleaned_customer_data.csv
 
 
