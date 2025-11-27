@@ -42,6 +42,8 @@ PHASE 2 - SQL Analytical Exploration
 Section A - Data Quality and Understanding 
 
 1 - How many total customer records are in the table?
+
+
 <img width="596" height="447" alt="image" src="https://github.com/user-attachments/assets/c629bdfc-8c33-42f6-bcf1-f83b8b911451" />
 
 
